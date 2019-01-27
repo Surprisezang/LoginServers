@@ -1,7 +1,8 @@
 # LoginServers
-登陆、注册和修改密码的API
-用Android Studio写登陆注册功能时可以用POST功能直接调用
-服务器返回json，成功就是success，失败就是false
+登陆、注册和修改密码的API。
+用Android Studio写登陆注册功能时可以用POST功能直接调用。
+服务器返回json，成功就是success，失败就是false。
+调用方法如下：
 
     private void postRequest(String name,String pwd, String phone)  {
         //建立请求表单，添加上传服务器的参数
